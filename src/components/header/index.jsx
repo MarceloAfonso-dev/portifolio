@@ -1,6 +1,6 @@
 import ImageComponent from '../imageComponent/index.jsx';
 import style from './style.module.css';
-import { meImage } from '../../utils/images';
+import { meImage } from '../../assets/images/index.js';
 
 export default function Header(){
     return( 
