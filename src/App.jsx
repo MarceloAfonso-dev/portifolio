@@ -1,7 +1,12 @@
 import styles from './App.module.css';
+import Header from './components/header';
 
 function App() {
-  return <h1 className={styles.title}>Portifólio DEV</h1>
+  return(
+    <div className={styles.portifolioContainer}>
+      <Header />
+    </div>
+  )
 }
 
 export default App;
